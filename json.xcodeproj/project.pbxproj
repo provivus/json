@@ -23,13 +23,6 @@
 /* Begin PBXBuildFile section */
 		OBJ_173 /* JSONConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* JSONConvertibleTests.swift */; };
 		OBJ_174 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* JSONTests.swift */; };
-		OBJ_176 /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "JSON::JSON::Product" /* JSON.framework */; };
-		OBJ_177 /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Node::Node::Product" /* Node.framework */; };
-		OBJ_178 /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Node::PathIndexable::Product" /* PathIndexable.framework */; };
-		OBJ_179 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Core::Product" /* Core.framework */; };
-		OBJ_180 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Debugging::Debugging::Product" /* Debugging.framework */; };
-		OBJ_181 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Bits::Bits::Product" /* Bits.framework */; };
-		OBJ_182 /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::libc::Product" /* libc.framework */; };
 		OBJ_201 /* JSON+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* JSON+Bytes.swift */; };
 		OBJ_202 /* JSON+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* JSON+Equatable.swift */; };
 		OBJ_203 /* JSON+Fuzzy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* JSON+Fuzzy.swift */; };
@@ -39,20 +32,6 @@
 		OBJ_207 /* JSONContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* JSONContext.swift */; };
 		OBJ_208 /* JSONRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* JSONRepresentable.swift */; };
 		OBJ_209 /* Sequence+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Sequence+Convertible.swift */; };
-		OBJ_211 /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Node::Node::Product" /* Node.framework */; };
-		OBJ_212 /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Node::PathIndexable::Product" /* PathIndexable.framework */; };
-		OBJ_213 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Core::Product" /* Core.framework */; };
-		OBJ_214 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Debugging::Debugging::Product" /* Debugging.framework */; };
-		OBJ_215 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Bits::Bits::Product" /* Bits.framework */; };
-		OBJ_216 /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::libc::Product" /* libc.framework */; };
-		OBJ_266 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Core::Product" /* Core.framework */; };
-		OBJ_267 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Debugging::Debugging::Product" /* Debugging.framework */; };
-		OBJ_268 /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::libc::Product" /* libc.framework */; };
-		OBJ_269 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Bits::Bits::Product" /* Bits.framework */; };
-		OBJ_270 /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Node::PathIndexable::Product" /* PathIndexable.framework */; };
-		OBJ_311 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Debugging::Debugging::Product" /* Debugging.framework */; };
-		OBJ_312 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Bits::Bits::Product" /* Bits.framework */; };
-		OBJ_313 /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::libc::Product" /* libc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -214,14 +193,14 @@
 
 /* Begin PBXFileReference section */
 		0480A7DE1F85162D00204C4F /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		"Bits::Bits::Product" /* Bits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::Core::Product" /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::libc::Product" /* libc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Debugging::Debugging::Product" /* Debugging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Debugging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"JSON::JSON::Product" /* JSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"JSON::JSONTests::Product" /* JSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = JSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Node::Node::Product" /* Node.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Node.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Node::PathIndexable::Product" /* PathIndexable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PathIndexable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Bits::Bits::Product" /* Bits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Bits.framework; path = "/Users/joohan/provivus/mvn/json/build/Debug-iphoneos/Bits.framework"; sourceTree = "<absolute>"; };
+		"Core::Core::Product" /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Core.framework; path = "/Users/joohan/provivus/mvn/json/build/Debug-iphoneos/Core.framework"; sourceTree = "<absolute>"; };
+		"Core::libc::Product" /* libc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = libc.framework; path = "/Users/joohan/provivus/mvn/json/build/Debug-iphoneos/libc.framework"; sourceTree = "<absolute>"; };
+		"Debugging::Debugging::Product" /* Debugging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Debugging.framework; path = "/Users/joohan/provivus/mvn/json/build/Debug-iphoneos/Debugging.framework"; sourceTree = "<absolute>"; };
+		"JSON::JSON::Product" /* JSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = JSON.framework; path = "/Users/joohan/provivus/mvn/json/build/Debug-iphoneos/JSON.framework"; sourceTree = "<absolute>"; };
+		"JSON::JSONTests::Product" /* JSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = JSONTests.xctest; path = "/Users/joohan/provivus/mvn/json/build/Debug-iphoneos/JSONTests.xctest"; sourceTree = "<absolute>"; };
+		"Node::Node::Product" /* Node.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Node.framework; path = "/Users/joohan/provivus/mvn/json/build/Debug-iphoneos/Node.framework"; sourceTree = "<absolute>"; };
+		"Node::PathIndexable::Product" /* PathIndexable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = PathIndexable.framework; path = "/Users/joohan/provivus/mvn/json/build/Debug-iphoneos/PathIndexable.framework"; sourceTree = "<absolute>"; };
 		OBJ_10 /* JSON+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSON+Equatable.swift"; sourceTree = "<group>"; };
 		OBJ_11 /* JSON+Fuzzy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSON+Fuzzy.swift"; sourceTree = "<group>"; };
 		OBJ_12 /* JSON+Parse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSON+Parse.swift"; sourceTree = "<group>"; };
@@ -240,13 +219,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_176 /* JSON.framework in Frameworks */,
-				OBJ_177 /* Node.framework in Frameworks */,
-				OBJ_178 /* PathIndexable.framework in Frameworks */,
-				OBJ_179 /* Core.framework in Frameworks */,
-				OBJ_180 /* Debugging.framework in Frameworks */,
-				OBJ_181 /* Bits.framework in Frameworks */,
-				OBJ_182 /* libc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +226,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_211 /* Node.framework in Frameworks */,
-				OBJ_212 /* PathIndexable.framework in Frameworks */,
-				OBJ_213 /* Core.framework in Frameworks */,
-				OBJ_214 /* Debugging.framework in Frameworks */,
-				OBJ_215 /* Bits.framework in Frameworks */,
-				OBJ_216 /* libc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,11 +233,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_266 /* Core.framework in Frameworks */,
-				OBJ_267 /* Debugging.framework in Frameworks */,
-				OBJ_268 /* libc.framework in Frameworks */,
-				OBJ_269 /* Bits.framework in Frameworks */,
-				OBJ_270 /* PathIndexable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +247,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_311 /* Debugging.framework in Frameworks */,
-				OBJ_312 /* Bits.framework in Frameworks */,
-				OBJ_313 /* libc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,21 +274,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_129 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				"JSON::JSONTests::Product" /* JSONTests.xctest */,
-				"JSON::JSON::Product" /* JSON.framework */,
-				"Node::Node::Product" /* Node.framework */,
-				"Node::PathIndexable::Product" /* PathIndexable.framework */,
-				"Core::Core::Product" /* Core.framework */,
-				"Debugging::Debugging::Product" /* Debugging.framework */,
-				"Bits::Bits::Product" /* Bits.framework */,
-				"Core::libc::Product" /* libc.framework */,
-			);
-			name = Products;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		OBJ_18 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,7 +298,6 @@
 				0480A7DE1F85162D00204C4F /* Cartfile */,
 				OBJ_7 /* Sources */,
 				OBJ_18 /* Tests */,
-				OBJ_129 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -622,7 +564,7 @@
 				en,
 			);
 			mainGroup = OBJ_5;
-			productRefGroup = OBJ_129 /* Products */;
+			productRefGroup = OBJ_5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
