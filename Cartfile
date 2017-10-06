@@ -1,2 +1,2 @@
-github "provivus/core" "master"
 github "provivus/node" "master"
+github "provivus/core" "master"
